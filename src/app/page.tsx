@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { title } from "process";
 
 export default function Home() {
   return (
@@ -98,4 +99,10 @@ export default function Home() {
       </footer>
     </div>
   );
+}
+
+export const metadata = {
+  title:"",//nombre pesana
+  description:"",//al inspeccionar
+  icon:""//imagen de la pesana
 }
